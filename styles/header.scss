@@ -5,99 +5,91 @@
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 1px solid #f4f4f5;
   background: #ffffff;
   z-index: 3;
-  animation: introHeader 1s ease forwards;
-  @keyframes introHeader {
-    from {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  @media screen and (max-width: 840px) {
-    animation: none;
-  }
   &__container {
     width: 95%;
     max-width: 1280px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
   }
   &-logo {
+    width: 110px;
   }
   &-nav {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     gap: 1.5rem;
-    @media screen and (max-width: 840px) {
-      display: none;
-    }
-    &__links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 1rem;
-      a {
-        font-weight: 400;
-        font-size: 1.125rem;
-        transition: 0.3s color ease;
-        &:hover {
-          color: $green;
+    li {
+      position: relative;
+      ul {
+        padding: 1rem;
+        width: 230px;
+        position: absolute;
+        right: 0;
+      //  top: 2rem;
+      z-index: 2;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        background: #fff;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06),
+          0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        a {
+          width: 100%;
+          position: relative;
+          display: inline-block;
+          font-weight: 500;
+          &:hover {
+            color: $red;
+          }
         }
       }
-      img {
+      a {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0.5rem;
-        background: #f0fdf4;
-        border: 1px solid #dcfce7;
-        border-radius: 50%;
+        gap: 0.5rem;
+
+        span {
+          display: inline-block;
+          font-weight: 600;
+          transition: 0.3s ease;
+        }
+        svg {
+          display: inline-block;
+        }
+        &:hover {
+          span {
+            color: $red;
+          }
+          svg {
+            fill: $red;
+            path {
+              fill: none;
+              stroke: $red;
+            }
+          }
+        }
+      }
+      &:hover{
+        ul{
+          display: flex;
+        }
       }
     }
-
-    &__auth {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      button {
-        padding: 0.5rem 1.125rem;
-        border: 2px solid $green;
-        background: $green;
-        font-weight: 500;
-        cursor: pointer;
-        border-radius: 0.5rem;
-        transition: 0.3s ease;
-        &:first-child {
-          color: #ffffff;
-          &:hover {
-            opacity: 0.8;
-          }
-        }
-        &:last-child {
-          background: #fff;
-          color: $green;
-          border-color: #fff;
-          &:hover {
-            border-color: $green;
-            background: rgba($color: $green, $alpha: 0.05);
-          }
-        }
-      }
+    @media screen and (max-width: 740px) {
+      display: none;
     }
   }
   .menu-open {
     display: none;
-    @media screen and (max-width: 840px) {
+    @media screen and (max-width: 740px) {
       display: block;
     }
   }
@@ -115,85 +107,80 @@
       background: #fff;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 2rem;
       transform: translateX(100%);
       transition: 0.3s ease;
-      &__top {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 1.5rem;
-        padding: 1.4rem 1rem;
-        border-bottom: 1px solid #f4f4f5;
-        img:first-child {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 0.5rem;
-          background: #f0fdf4;
-          border: 1px solid #dcfce7;
-          border-radius: 50%;
-        }
+      padding: 1rem;
+      .menu-close{
+        align-self: flex-end;
+        cursor: pointer;
       }
-      &__items {
+      &-nav {
         width: 100%;
-        flex-grow: 1;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: flex-start;
-        padding: 1.25rem 1rem;
+        align-items: flex-start;
         gap: 1.5rem;
-        ul {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          gap: 0.75rem;
-          width: 100%;
-          a {
-            display: inline-block;
-            text-align: center;
-            width: 100%;
-            font-weight: 400;
-            font-size: 1.125rem;
-            transition: 0.3s color ease;
-            &:hover {
-              color: $green;
+        li {
+          position: relative;
+          ul {
+            padding: 1rem;
+            width: 230px;
+            position: absolute;
+            left: 0;
+            z-index: 2;
+          //  top: 2rem;
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+            background: #fff;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06),
+              0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            a {
+              width: 100%;
+              position: relative;
+              display: inline-block;
+              font-weight: 500;
+              &:hover {
+                color: $red;
+              }
             }
           }
-        }
-        div {
-          width: 100%;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 0.75rem;
-          button {
-            width: 100%;
-            padding: 0.5rem 1.125rem;
-            border: 2px solid $green;
-            background: $green;
-            font-weight: 500;
-            cursor: pointer;
-            border-radius: 0.5rem;
-            transition: 0.3s ease;
-            &:first-child {
-              color: #ffffff;
-              &:hover {
-                opacity: 0.8;
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+    
+            span {
+              display: inline-block;
+              font-weight: 600;
+              transition: 0.3s ease;
+            }
+            svg {
+              display: inline-block;
+            }
+            &:hover {
+              span {
+                color: $red;
+              }
+              svg {
+                fill: $red;
+                path {
+                  fill: none;
+                  stroke: $red;
+                }
               }
             }
-            &:last-child {
-              background: #fff;
-              color: $green;
-              border-color: $green;
-              &:hover {
-                background: rgba($color: $green, $alpha: 0.05);
-              }
+          }
+          &:hover{
+            ul{
+              display: flex;
             }
           }
         }

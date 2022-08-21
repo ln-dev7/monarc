@@ -110,7 +110,7 @@
               top: 50%;
               transform: translateY(-50%);
               left: 7px;
-              background: $green;
+              background: $red;
               border-radius: 50%;
             }
           }
@@ -178,8 +178,8 @@
     a {
       width: 100%;
       padding: 0.5rem 1.125rem;
-      border: 2px solid $green;
-      background: $green;
+      border: 2px solid $red;
+      background: $red;
       font-weight: 500;
       cursor: pointer;
       border-radius: 0.5rem;

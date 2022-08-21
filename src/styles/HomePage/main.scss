@@ -1,0 +1,175 @@
+.homePage {
+  .main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+    height: 600px;
+    @media screen and (max-width: 1200px) {
+      height: 500px;
+    }
+    @media screen and (max-width: 1100px) {
+      height: 450px;
+    }
+    @media screen and (max-width: 900px) {
+      height: auto;
+    }
+    &__container {
+      width: 95%;
+      max-width: 1280px;
+      gap: 0rem;
+      @media screen and (max-width: 600px) {
+        .main-image {
+          display: none;
+        }
+        .main-text {
+          width: 100%;
+          padding: 0;
+        }
+      }
+    }
+    .main-3-illus {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      @media screen and (max-width: 900px) {
+        display: none;
+      }
+    }
+    &-image {
+      position: absolute;
+      width: 50%;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      @media screen and (max-width: 900px) {
+        position: static;
+      }
+    }
+    &-text {
+      padding: 3rem;
+      flex-shrink: 0;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      h2 {
+        color: $red;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      p {
+        font-weight: 500;
+        span {
+          font-weight: 400;
+          color: $gray;
+        }
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        li {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 0.5rem;
+          span {
+            font-weight: 400;
+          }
+        }
+      }
+      input {
+        width: 60%;
+        background: #e4e4e7;
+        border: 1px solid #9fa6b2;
+        color: #9fa6b2;
+        border-radius: 4px;
+        overflow: hidden;
+        outline: none;
+        padding: 0.5rem 1rem;
+        font-weight: 400;
+        @media screen and (max-width: 900px) {
+          width: 100%;
+        }
+      }
+      button {
+        border: 2px solid #fee2e2;
+        background: #fee2e2;
+        color: $red;
+        font-weight: 500;
+        padding: 0.65rem 0.8rem;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          border-color: rgba($color: $red, $alpha: 0.5);
+        }
+      }
+    }
+  }
+
+  .main.one {
+    .main__container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      @media screen and (max-width: 900px) {
+        padding: 2rem 0;
+        align-items: flex-start;
+        .main-text {
+          padding-top: 0;
+        }
+      }
+    }
+    .main-image {
+      border-radius: 0px 64px 0px 0px;
+      left: 0;
+    }
+  }
+
+  .main.two {
+    .main__container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      @media screen and (max-width: 900px) {
+        padding: 2rem 0;
+        align-items: flex-start;
+        .main-text {
+          padding-top: 0;
+        }
+      }
+    }
+    .main-image {
+      border-radius: 0px 0px 0px 64px;
+      right: 0;
+    }
+  }
+
+  .main.three {
+    .main__container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-bottom: 2rem;
+      @media screen and (max-width: 900px) {
+        padding: 2rem 0;
+        padding-bottom: 4rem;
+        align-items: flex-start;
+        .main-text {
+          padding-top: 0;
+        }
+      }
+    }
+    .main-image {
+      border-radius: 0px 64px 0px 0px;
+      left: 0;
+    }
+  }
+}

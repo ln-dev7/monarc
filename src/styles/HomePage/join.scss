@@ -50,7 +50,12 @@
         cursor: pointer;
         border-radius: 0.5rem;
         transition: 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
         span {
+          display: inline-block;
           font-weight: 500;
           color: $red;
         }

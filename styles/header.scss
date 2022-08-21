@@ -16,7 +16,7 @@
     padding: 1.5rem 0;
   }
   &-logo {
-    width: 110px;
+    width: 120px;
   }
   &-nav {
     display: flex;
@@ -89,6 +89,7 @@
   }
   .menu-open {
     display: none;
+    cursor: pointer;
     @media screen and (max-width: 740px) {
       display: block;
     }

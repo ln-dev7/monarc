@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 3rem 0;
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 960px) {
       padding: 8rem 5rem 8rem 0;
     }
     @media screen and (max-width: 600px) {
@@ -33,6 +33,15 @@
           }
         }
       }
+    }
+  }
+  .hero-illus {
+    position: absolute;
+    bottom: -7rem;
+    right: 0;
+    z-index: 2;
+    @media screen and (max-width: 900px) {
+      display: none;
     }
   }
   &-text {
@@ -67,15 +76,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: .5rem;
+        gap: 0.5rem;
         border-radius: 0.5rem;
         transition: 0.3s ease;
-        span{
+        span {
           font-weight: 500;
           display: inline-block;
         }
         &:first-child {
-          span{
+          span {
             color: #ffffff;
           }
           &:hover {
@@ -85,7 +94,7 @@
         &:last-child {
           background: #fff;
           border-color: $red;
-          span{
+          span {
             color: $red;
           }
           &:hover {
@@ -98,10 +107,10 @@
   &-image {
     width: 55%;
     flex-shrink: 0;
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 960px) {
       display: none;
     }
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 600px) {
       display: block;
       width: auto;
     }

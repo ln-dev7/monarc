@@ -1,6 +1,25 @@
 import React from "react";
 
 export default function Header() {
+  const headerMenu = document.querySelector(".header-menu");
+  const menuOpen = document.querySelector(".menu-open");
+  const menuClose = document.querySelector(".menu-close");
+  const headerOverlay = document.querySelector(".header-overlay");
+
+  const openMenu = () => {
+    setTimeout(function () {
+      headerMenu.classList.add("show");
+    }, 100);
+    headerOverlay.classList.add("show");
+  };
+
+  const closeMenu = () => {
+    headerMenu.classList.remove("show");
+    setTimeout(function () {
+      headerOverlay.classList.remove("show");
+    }, 300);
+  };
+
   return (
     <header class="header">
       <div class="header__container">
@@ -120,13 +139,13 @@ export default function Header() {
                   fill="#27272A"
                 />
               </svg>
-              <ul>
-                <a href="#">Windows</a>
-                <a href="#">MacOS</a>
-                <a href="#">Android</a>
-                <a href="#">iOS</a>
-              </ul>
             </a>
+            <ul>
+              <a href="#">Windows</a>
+              <a href="#">MacOS</a>
+              <a href="#">Android</a>
+              <a href="#">iOS</a>
+            </ul>
           </li>
         </ul>
         <svg
@@ -135,6 +154,7 @@ export default function Header() {
           viewBox="0 0 24 24"
           width="24"
           height="24"
+          onClick={openMenu}
         >
           <path fill="none" d="M0 0h24v24H0z" />
           <path
@@ -150,6 +170,7 @@ export default function Header() {
               viewBox="0 0 24 24"
               width="30"
               height="30"
+              onClick={closeMenu}
             >
               <path fill="none" d="M0 0h24v24H0z" />
               <path

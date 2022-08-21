@@ -12,13 +12,8 @@
     margin: 1.5rem 0;
     .footer__container {
       padding: 1.5rem 1rem;
-      background: #fafafa;
       width: 95%;
       max-width: 1280px;
-      //   display: flex;
-      //   align-items: flex-start;
-      //   justify-content: space-between;
-      //   gap: .5rem;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       grid-gap: 1.5rem;
@@ -29,23 +24,9 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 1rem;
-      @media screen and (max-width: 478px) {
-        div {
-          flex-direction: column;
-          button,
-          input,
-          a {
-            width: 100%;
-          }
-        }
-      }
       h3 {
         font-weight: 600;
         font-size: 1.2rem;
-      }
-      p {
-        font-weight: 400;
-        color: $gray;
       }
       ul {
         display: flex;
@@ -56,11 +37,24 @@
           font-weight: 400;
           color: $gray;
           &:hover {
-            color: $black;
+            color: $red;
           }
         }
+      }
+      div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content:center;
+        flex-direction: column;
+        gap: .5rem;
+        img{
+          width: 120px;
+          margin-bottom: 3rem;
+        }
         button {
-          padding: 0.5rem 1.125rem;
+          width: 100%;
+          padding: 0.25rem 0.5rem;
           border: 2px solid $black;
           background: $black;
           font-weight: 500;
@@ -70,63 +64,6 @@
           color: #ffffff;
           &:hover {
             opacity: 0.8;
-          }
-        }
-      }
-      div {
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 0.5rem;
-        a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 0.5rem;
-          border: 2px solid #fff;
-          padding: 0.5rem 1rem;
-          border-radius: 12px;
-          background: #fff;
-          span {
-            color: $gray;
-            font-weight: 500;
-            font-size: 1.1rem;
-          }
-          &:hover {
-            border-color: $gray;
-          }
-        }
-        button {
-          flex-shrink: 0;
-          padding: 0.5rem 1.125rem;
-          border: 2px solid $red;
-          background: $red;
-          font-weight: 500;
-          cursor: pointer;
-          border-radius: 0.5rem;
-          transition: 0.3s ease;
-          color: #ffffff;
-          &:hover {
-            opacity: 0.8;
-          }
-        }
-        input {
-          overflow: hidden;
-          outline: none;
-          padding: 0.5rem 1.125rem;
-          border: 2px solid #e4e4e7;
-          font-weight: 500;
-          cursor: pointer;
-          border-radius: 0.5rem;
-          transition: 0.3s ease;
-          color: #a1a1aa;
-          flex-grow: 1;
-          &:focus {
-            border-color: $red;
-          }
-          &::placeholder {
-            color: #a1a1aa;
           }
         }
       }

@@ -16,10 +16,11 @@
     @media screen and (max-width: 600px) {
       flex-direction: column-reverse;
       padding: 3rem 0;
+      gap: 2rem;
       .hero-text {
         h1 {
-          font-size: 1.8rem;
-          line-height: 35px;
+          font-size: 1.6rem;
+          line-height: 31px;
         }
         p {
           font-size: 18px;

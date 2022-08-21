@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 0;
+  // position: fixed;
+  // top: 0;
   width: 100%;
   background: #ffffff;
   z-index: 3;
@@ -94,6 +94,7 @@
     }
   }
   &-overlay {
+    z-index: 3;
     display: none;
     justify-content: flex-end;
     position: fixed;

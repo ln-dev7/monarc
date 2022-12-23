@@ -3,12 +3,12 @@ import React from "react";
 export default function Main() {
   return (
     <div>
-      <div class="main one">
-        <div class="main__container">
-          <div class="main-image">
+      <div className="main one">
+        <div className="main__container">
+          <div className="main-image">
             <img src="assets/Rectangle 14.png" alt="image" />
           </div>
-          <div class="main-text">
+          <div className="main-text">
             <h2>Create a video-call</h2>
             <p>
               If face-to-face communication is simpler, make a one-click voice
@@ -27,9 +27,9 @@ export default function Main() {
                   <path
                     d="M5 7.5L6.33333 8.83333L9 6.16667M13 7.5C13 8.28793 12.8448 9.06815 12.5433 9.7961C12.2417 10.5241 11.7998 11.1855 11.2426 11.7426C10.6855 12.2998 10.0241 12.7417 9.2961 13.0433C8.56815 13.3448 7.78793 13.5 7 13.5C6.21207 13.5 5.43185 13.3448 4.7039 13.0433C3.97595 12.7417 3.31451 12.2998 2.75736 11.7426C2.20021 11.1855 1.75825 10.5241 1.45672 9.7961C1.15519 9.06815 1 8.28793 1 7.5C1 5.9087 1.63214 4.38258 2.75736 3.25736C3.88258 2.13214 5.4087 1.5 7 1.5C8.5913 1.5 10.1174 2.13214 11.2426 3.25736C12.3679 4.38258 13 5.9087 13 7.5Z"
                     stroke="#F05252"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
                 <span>Select and copy this to share it!</span>
@@ -45,9 +45,9 @@ export default function Main() {
                   <path
                     d="M5 7.5L6.33333 8.83333L9 6.16667M13 7.5C13 8.28793 12.8448 9.06815 12.5433 9.7961C12.2417 10.5241 11.7998 11.1855 11.2426 11.7426C10.6855 12.2998 10.0241 12.7417 9.2961 13.0433C8.56815 13.3448 7.78793 13.5 7 13.5C6.21207 13.5 5.43185 13.3448 4.7039 13.0433C3.97595 12.7417 3.31451 12.2998 2.75736 11.7426C2.20021 11.1855 1.75825 10.5241 1.45672 9.7961C1.15519 9.06815 1 8.28793 1 7.5C1 5.9087 1.63214 4.38258 2.75736 3.25736C3.88258 2.13214 5.4087 1.5 7 1.5C8.5913 1.5 10.1174 2.13214 11.2426 3.25736C12.3679 4.38258 13 5.9087 13 7.5Z"
                     stroke="#F05252"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
                 <span>Share link with your friends or anymore</span>
@@ -61,9 +61,9 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div class="main two">
-        <div class="main__container">
-          <div class="main-text">
+      <div className="main two">
+        <div className="main__container">
+          <div className="main-text">
             <h2>Gaming Controller</h2>
             <p>
               Create a game group session and enjoy the moment with your
@@ -74,22 +74,22 @@ export default function Main() {
             </p>
             <button>More know about it</button>
           </div>
-          <div class="main-image">
+          <div className="main-image">
             <img src="assets/Rectangle 16.png" alt="image" />
           </div>
         </div>
       </div>
-      <div class="main three">
+      <div className="main three">
         <img
           src="assets/Group 20.png"
           alt="illustrattion"
-          class="main-3-illus"
+          className="main-3-illus"
         />
-        <div class="main__container">
-          <div class="main-image">
+        <div className="main__container">
+          <div className="main-image">
             <img src="assets/Rectangle 14 (1).png" alt="image" />
           </div>
-          <div class="main-text">
+          <div className="main-text">
             <h2>Circus Tent</h2>
             <p>
               Create a room cinema session and watch a movie/film/serie with

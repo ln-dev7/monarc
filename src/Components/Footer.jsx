@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer class="footer">
-      <div class="footer-links">
-        <div class="footer__container">
-          <div class="footer-links__item">
+    <footer className="footer">
+      <div className="footer-links">
+        <div className="footer__container">
+          <div className="footer-links__item">
             <div>
               <img src="assets/logo.svg" alt="logo" />
             </div>
@@ -121,47 +121,47 @@ export default function Footer() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M0.962055 2.42231C0.673965 2.73403 0.507568 3.21034 0.507568 3.83378V25.946C0.507568 26.5694 0.673965 27.0458 0.971989 27.345L1.04898 27.4123L13.3872 15.0233V14.7465L1.03904 2.35498L0.962055 2.42231Z"
                     fill="url(#paint0_linear_720_174)"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M17.4922 19.1657L13.377 15.0335V14.7442L17.4922 10.6121L17.5816 10.6669L22.4494 13.445C23.8426 14.233 23.8426 15.5348 22.4494 16.3328L17.5816 19.1108L17.4922 19.1657Z"
                     fill="url(#paint1_linear_720_174)"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M17.5817 19.1106L13.3771 14.8887L0.961914 27.355C1.4164 27.8438 2.17885 27.8986 3.0307 27.4223L17.5817 19.1106Z"
                     fill="url(#paint2_linear_720_174)"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M17.5817 10.2882L3.0307 1.98895C2.17885 1.50017 1.41392 1.5675 0.961914 2.05628L13.3771 14.5101L17.5817 10.2882Z"
                     fill="url(#paint3_linear_720_174)"
                   />
                   <path
                     opacity="0.2"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M17.4922 19.021L3.04048 27.2654C2.23332 27.7317 1.51309 27.6993 1.04867 27.2753L0.97168 27.3526L1.04867 27.42C1.51309 27.8414 2.23332 27.8763 3.04048 27.41L17.5916 19.1108L17.4922 19.021Z"
                     fill="#28282D"
                   />
                   <path
                     opacity="0.12"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M22.4495 16.1879L17.48 19.0208L17.5694 19.1106L22.4371 16.3326C23.135 15.9336 23.4777 15.4099 23.4777 14.8887C23.4355 15.3675 23.0803 15.8213 22.4495 16.1879Z"
                     fill="#28282D"
                   />
                   <path
                     opacity="0.25"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M3.03084 2.51221L22.4496 13.5895C23.0804 13.9461 23.4356 14.4125 23.4902 14.8888C23.4902 14.3676 23.1475 13.8439 22.4496 13.4449L3.03084 2.36757C1.63758 1.56707 0.507568 2.2354 0.507568 3.83391V3.97854C0.507568 2.37755 1.63758 1.72169 3.03084 2.51221Z"
                     fill="white"
                   />
@@ -170,8 +170,8 @@ export default function Footer() {
                     fill="white"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M58.4507 16.1421C56.1037 16.1421 54.2013 17.9302 54.2013 20.3965C54.2013 22.8404 56.1161 24.6509 58.4507 24.6509C60.7976 24.6509 62.7 22.8504 62.7 20.3965C62.7 17.9302 60.7976 16.1421 58.4507 16.1421ZM58.4507 22.9651C57.1667 22.9651 56.0615 21.8977 56.0615 20.3865C56.0615 18.8529 57.1691 17.808 58.4507 17.808C59.7346 17.808 60.8398 18.8529 60.8398 20.3865C60.8423 21.9077 59.7346 22.9651 58.4507 22.9651ZM49.1796 16.1421C46.8327 16.1421 44.9303 17.9302 44.9303 20.3965C44.9303 22.8404 46.8451 24.6509 49.1796 24.6509C51.5265 24.6509 53.4289 22.8504 53.4289 20.3965C53.4289 17.9302 51.5241 16.1421 49.1796 16.1421ZM49.1796 22.9651C47.8956 22.9651 46.7904 21.8977 46.7904 20.3865C46.7904 18.8529 47.8981 17.808 49.1796 17.808C50.4636 17.808 51.5688 18.8529 51.5688 20.3865C51.5688 21.9077 50.4636 22.9651 49.1796 22.9651ZM38.1477 17.4414V19.2419H42.4517C42.3201 20.2519 41.9873 20.9975 41.4781 21.5087C40.8473 22.1421 39.8738 22.8304 38.1577 22.8304C35.5127 22.8304 33.4439 20.6858 33.4439 18.0299C33.4439 15.3741 35.5127 13.2294 38.1577 13.2294C39.5857 13.2294 40.6263 13.7955 41.3987 14.5187L42.6702 13.2419C41.5974 12.2095 40.1693 11.4189 38.1676 11.4189C34.5391 11.4189 31.4943 14.3865 31.4943 18.0199C31.4943 21.6633 34.5367 24.6209 38.1676 24.6209C40.1271 24.6209 41.5974 23.9775 42.7597 22.7656C43.9443 21.5761 44.3193 19.8977 44.3193 18.5436C44.3193 18.1222 44.287 17.7431 44.22 17.4214H38.1452C38.1477 17.4189 38.1477 17.4414 38.1477 17.4414ZM83.2711 18.8429C82.916 17.8878 81.8431 16.1322 79.6427 16.1322C77.4621 16.1322 75.6492 17.8554 75.6492 20.3865C75.6492 22.7756 77.4423 24.6409 79.8538 24.6409C81.7909 24.6409 82.9185 23.4514 83.3829 22.7531L81.9449 21.7855C81.4681 22.4962 80.805 22.9626 79.8637 22.9626C78.9125 22.9626 78.2469 22.5287 77.8049 21.6733L83.4698 19.3167C83.4698 19.3192 83.2711 18.8429 83.2711 18.8429ZM77.4944 20.2643C77.4497 18.6209 78.766 17.7855 79.7073 17.7855C80.4498 17.7855 81.0682 18.1521 81.2793 18.6858L77.4944 20.2643ZM72.8924 24.3865H74.7526V11.8878H72.8924V24.3865ZM69.8377 17.0873H69.7706C69.3509 16.586 68.5537 16.1322 67.5354 16.1322C65.4219 16.1322 63.4748 18 63.4748 20.399C63.4748 22.788 65.412 24.6334 67.5354 24.6334C68.5413 24.6334 69.3509 24.177 69.7706 23.6658H69.8377V24.2768C69.8377 25.9002 68.9734 26.7756 67.5801 26.7756C66.4402 26.7756 65.7324 25.9526 65.4443 25.2643L63.8275 25.9426C64.2919 27.0648 65.5312 28.4539 67.5777 28.4539C69.7582 28.4539 71.606 27.1646 71.606 24.0199V16.3865H69.8476V17.0873C69.8501 17.0873 69.8377 17.0873 69.8377 17.0873ZM67.7018 22.9651C66.4178 22.9651 65.345 21.8878 65.345 20.399C65.345 18.8977 66.4178 17.8105 67.7018 17.8105C68.9734 17.8105 69.9594 18.9102 69.9594 20.399C69.9718 21.8878 68.9759 22.9651 67.7018 22.9651ZM91.9809 11.8878H87.5329V24.3865H89.3931V19.6534H91.9834C94.0422 19.6534 96.0663 18.1546 96.0663 15.7756C96.0663 13.3965 94.0497 11.8878 91.9809 11.8878ZM92.0355 17.9077H89.3906V13.6184H92.0355C93.4288 13.6184 94.2161 14.7731 94.2161 15.7631C94.2161 16.7431 93.4189 17.9077 92.0355 17.9077ZM103.522 16.1197C102.171 16.1197 100.778 16.7207 100.201 18.0299L101.85 18.7182C102.206 18.0299 102.856 17.7955 103.544 17.7955C104.508 17.7955 105.481 18.3741 105.504 19.4065V19.5386C105.171 19.3491 104.441 19.0598 103.567 19.0598C101.786 19.0598 99.9804 20.0374 99.9804 21.8703C99.9804 23.5486 101.441 24.6259 103.067 24.6259C104.317 24.6259 105.005 24.0598 105.434 23.404H105.501V24.3716H107.294V19.5835C107.294 17.3541 105.645 16.1197 103.522 16.1197ZM103.288 22.9651C102.68 22.9651 101.828 22.6658 101.828 21.8977C101.828 20.9302 102.891 20.5636 103.798 20.5636C104.617 20.5636 105.005 20.7406 105.491 20.985C105.357 22.1072 104.413 22.9551 103.288 22.9651ZM113.836 16.3865L111.7 21.808H111.633L109.42 16.3865H107.419L110.739 23.9651L108.847 28.177H110.784L115.892 16.3865H113.836ZM97.092 24.3865H98.9522V11.8878H97.092V24.3865Z"
                     fill="white"
                   />
@@ -184,12 +184,12 @@ export default function Footer() {
                       y2="8.84252"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#00A0FF" />
-                      <stop offset="0.00657" stop-color="#00A1FF" />
-                      <stop offset="0.2601" stop-color="#00BEFF" />
-                      <stop offset="0.5122" stop-color="#00D2FF" />
-                      <stop offset="0.7604" stop-color="#00DFFF" />
-                      <stop offset="1" stop-color="#00E3FF" />
+                      <stop stopColor="#00A0FF" />
+                      <stop offset="0.00657" stopColor="#00A1FF" />
+                      <stop offset="0.2601" stopColor="#00BEFF" />
+                      <stop offset="0.5122" stopColor="#00D2FF" />
+                      <stop offset="0.7604" stopColor="#00DFFF" />
+                      <stop offset="1" stopColor="#00E3FF" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_720_174"
@@ -199,10 +199,10 @@ export default function Footer() {
                       y2="14.8889"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#FFE000" />
-                      <stop offset="0.4087" stop-color="#FFBD00" />
-                      <stop offset="0.7754" stop-color="#FFA500" />
-                      <stop offset="1" stop-color="#FF9C00" />
+                      <stop stopColor="#FFE000" />
+                      <stop offset="0.4087" stopColor="#FFBD00" />
+                      <stop offset="0.7754" stopColor="#FFA500" />
+                      <stop offset="1" stopColor="#FF9C00" />
                     </linearGradient>
                     <linearGradient
                       id="paint2_linear_720_174"
@@ -212,8 +212,8 @@ export default function Footer() {
                       y2="43.9425"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#FF3A44" />
-                      <stop offset="1" stop-color="#C31162" />
+                      <stop stopColor="#FF3A44" />
+                      <stop offset="1" stopColor="#C31162" />
                     </linearGradient>
                     <linearGradient
                       id="paint3_linear_720_174"
@@ -223,18 +223,18 @@ export default function Footer() {
                       y2="6.63883"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#32A071" />
-                      <stop offset="0.0685" stop-color="#2DA771" />
-                      <stop offset="0.4762" stop-color="#15CF74" />
-                      <stop offset="0.8009" stop-color="#06E775" />
-                      <stop offset="1" stop-color="#00F076" />
+                      <stop stopColor="#32A071" />
+                      <stop offset="0.0685" stopColor="#2DA771" />
+                      <stop offset="0.4762" stopColor="#15CF74" />
+                      <stop offset="0.8009" stopColor="#06E775" />
+                      <stop offset="1" stopColor="#00F076" />
                     </linearGradient>
                   </defs>
                 </svg>
               </button>
             </div>
           </div>
-          <div class="footer-links__item">
+          <div className="footer-links__item">
             <h3>Product</h3>
             <ul>
               <a href="#">Overview</a>
@@ -245,7 +245,7 @@ export default function Footer() {
               <a href="#">Conditions d’utilisation</a>
             </ul>
           </div>
-          <div class="footer-links__item">
+          <div className="footer-links__item">
             <h3>Monarc for</h3>
             <ul>
               <a href="#">Small business</a>
@@ -256,7 +256,7 @@ export default function Footer() {
               <a href="#">Managers</a>
             </ul>
           </div>
-          <div class="footer-links__item">
+          <div className="footer-links__item">
             <h3>Resources</h3>
             <ul>
               <a href="#">Help center</a>
@@ -266,7 +266,7 @@ export default function Footer() {
               <a href="#">Guides & tutorials</a>
             </ul>
           </div>
-          <div class="footer-links__item">
+          <div className="footer-links__item">
             <h3>Company</h3>
             <ul>
               <a href="#">About us</a>
@@ -280,12 +280,13 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="footer__container">
+      <div className="footer-copyright">
+        <div className="footer__container">
           <p>
             © Copyright Monarc 2022-2023. All right reserved. - Design by
             <a href="https://twitter.com/mbagnajohan"> MBAGNA Johan </a> - Coded
-            by <a href="https://twitter.com/sanixdarker"> Sanix Darker </a> & <a href="https://leonelngoya.com"> Leonel NGOYA </a>
+            by <a href="https://twitter.com/sanixdarker"> Sanix Darker </a> &{" "}
+            <a href="https://leonelngoya.com"> Leonel NGOYA </a>
           </p>
           <div>
             <a href="#">
@@ -347,8 +348,8 @@ export default function Footer() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M10.0001 0.454102C4.47706 0.454102 6.10352e-05 5.04403 6.10352e-05 10.7077C6.10352e-05 15.2373 2.86506 19.081 6.83906 20.4363C7.33906 20.5304 7.52106 20.2141 7.52106 19.9418C7.52106 19.6992 7.51306 19.0533 7.50806 18.1986C4.72606 18.8179 4.13906 16.8239 4.13906 16.8239C3.68506 15.6385 3.02906 15.3233 3.02906 15.3233C2.12106 14.6886 3.09806 14.7009 3.09806 14.7009C4.10106 14.7725 4.62906 15.7573 4.62906 15.7573C5.52106 17.3234 6.97006 16.871 7.53906 16.6089C7.63106 15.9466 7.88906 15.4952 8.17506 15.2393C5.95506 14.9803 3.62006 14.1 3.62006 10.1714C3.62006 9.05254 4.01006 8.1364 4.64906 7.41986C4.54606 7.16088 4.20306 6.11781 4.74706 4.70726C4.74706 4.70726 5.58706 4.43088 7.49706 5.7575C8.31283 5.52975 9.1545 5.41376 10.0001 5.41253C10.8501 5.41663 11.7051 5.53025 12.5041 5.7575C14.4131 4.43088 15.2511 4.70623 15.2511 4.70623C15.7971 6.11781 15.4531 7.16088 15.3511 7.41986C15.9911 8.1364 16.3791 9.05254 16.3791 10.1714C16.3791 14.1103 14.0401 14.9773 11.8131 15.2311C12.1721 15.5474 12.4911 16.1729 12.4911 17.13C12.4911 18.4996 12.4791 19.6061 12.4791 19.9418C12.4791 20.2162 12.6591 20.5355 13.1671 20.4352C15.1584 19.7516 16.8894 18.4446 18.1155 16.6991C19.3417 14.9535 20.0009 12.8577 20.0001 10.7077C20.0001 5.04403 15.5221 0.454102 10.0001 0.454102Z"
                   fill="#18181B"
                 />

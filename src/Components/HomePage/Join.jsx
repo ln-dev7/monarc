@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Join() {
   return (
-    <div class="join">
-      <div class="join__container">
+    <div className="join">
+      <div className="join__container">
         <p>
           Join our newsletter to be the first to know about the availability of
           current features and the addition of new ones.
         </p>
-        <div class="join-subscribe">
+        <div className="join-subscribe">
           <input type="text" placeholder="Enter your email address" />
           <button>
             <span>Sign up</span>
